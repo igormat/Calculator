@@ -22,6 +22,14 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+    
+    
 }
 
+- (IBAction) digitPressed:(UIButton *) sender{
+    
+}
+- (IBAction) operationPressed:(UIButton *) sender{
+    
+}
 @end

@@ -14,6 +14,8 @@
 		7C7935191A03FD4A00446C53 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C7935181A03FD4A00446C53 /* Images.xcassets */; };
 		7C79351C1A03FD4A00446C53 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C79351A1A03FD4A00446C53 /* LaunchScreen.xib */; };
 		7C7935281A03FD4A00446C53 /* Calculator2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7935271A03FD4A00446C53 /* Calculator2Tests.m */; };
+		7CBFFEC51A0425C100B05411 /* CalculatorBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CBFFEC41A0425C100B05411 /* CalculatorBrain.m */; };
+		7CBFFEC81A0434C600B05411 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CBFFEC71A0434C600B05411 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		7C7935211A03FD4A00446C53 /* Calculator2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Calculator2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C7935261A03FD4A00446C53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C7935271A03FD4A00446C53 /* Calculator2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Calculator2Tests.m; sourceTree = "<group>"; };
+		7CBFFEC41A0425C100B05411 /* CalculatorBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CalculatorBrain.m; path = ../CalculatorBrain.m; sourceTree = "<group>"; };
+		7CBFFEC61A0425EE00B05411 /* CalculatorBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CalculatorBrain.h; path = ../CalculatorBrain.h; sourceTree = "<group>"; };
+		7CBFFEC71A0434C600B05411 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +68,7 @@
 		7C7934FF1A03FD4900446C53 = {
 			isa = PBXGroup;
 			children = (
+				7CBFFEC71A0434C600B05411 /* Default-568h@2x.png */,
 				7C79350A1A03FD4A00446C53 /* Calculator2 */,
 				7C7935241A03FD4A00446C53 /* Calculator2Tests */,
 				7C7935091A03FD4A00446C53 /* Products */,
@@ -81,6 +87,8 @@
 		7C79350A1A03FD4A00446C53 /* Calculator2 */ = {
 			isa = PBXGroup;
 			children = (
+				7CBFFEC61A0425EE00B05411 /* CalculatorBrain.h */,
+				7CBFFEC41A0425C100B05411 /* CalculatorBrain.m */,
 				7C79350F1A03FD4A00446C53 /* AppDelegate.h */,
 				7C7935101A03FD4A00446C53 /* AppDelegate.m */,
 				7C7935121A03FD4A00446C53 /* ViewController.h */,
@@ -200,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C7935171A03FD4A00446C53 /* Main.storyboard in Resources */,
+				7CBFFEC81A0434C600B05411 /* Default-568h@2x.png in Resources */,
 				7C79351C1A03FD4A00446C53 /* LaunchScreen.xib in Resources */,
 				7C7935191A03FD4A00446C53 /* Images.xcassets in Resources */,
 			);
@@ -221,6 +230,7 @@
 			files = (
 				7C7935141A03FD4A00446C53 /* ViewController.m in Sources */,
 				7C7935111A03FD4A00446C53 /* AppDelegate.m in Sources */,
+				7CBFFEC51A0425C100B05411 /* CalculatorBrain.m in Sources */,
 				7C79350E1A03FD4A00446C53 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +424,7 @@
 				7C79352D1A03FD4A00446C53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7C79352E1A03FD4A00446C53 /* Build configuration list for PBXNativeTarget "Calculator2Tests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +433,7 @@
 				7C7935301A03FD4A00446C53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
