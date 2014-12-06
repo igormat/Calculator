@@ -1,5 +1,5 @@
 //
-//  NSObject+CalculatorBrain.h
+//  CalculatorBrain.h
 //  Calculator2
 //
 //  Created by Igor Matveevskii on 31/10/14.
@@ -7,7 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <CoreData/CoreData.h>
 
-@interface NSObject (CalculatorBrain)
+@interface CalculatorBrain : NSObject{
+    NSString *waitingOperation;
+    double waitingOperand;
+    double operand;
+    
+}
 
+- (void) setOperand: (double) anOperand;
+- (double) performOperation:(NSString*) operation;
 @end

@@ -8,8 +8,14 @@
 
 #import <Foundation/Foundation.h>
 
+
 @interface CalculatorBrain : NSObject{
-    int tmp;
+    NSString *waitingOperation;
+    double waitingOperand;
+    double operand;
     
 }
+
+- (void) setOperand: (double) anOperand;
+- (double) performOperation:(NSString*) operation;
 @end

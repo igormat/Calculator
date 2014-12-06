@@ -7,14 +7,17 @@
 //
 //  add comment
 
-@class CalculatorBrain;
-
 #import <UIKit/UIKit.h>
 #import "CalculatorBrain.h"
+
+@class CalculatorBrain;
+
+
 
 @interface ViewController : UIViewController{
     IBOutlet UILabel *display;
     CalculatorBrain  *brain;
+    BOOL userInTheMiddleOfTypingNumber;
 
 
 }
